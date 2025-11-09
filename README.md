@@ -1,2 +1,6 @@
 # AutomatedAttendanceSystem
-Automated Attendance System (RFID) with Proxy Detection using Camera module for movement detection implemented on Raspberry Pi 3
+Automated Attendance System (RFID) with Proxy Detection using Camera module for movement detection implemented on Raspberry Pi 3.
+
+The code is for core features, full summary of the actual project (most of the code is lost):
+
+The "Automated Attendance Tracker and Report Generator" project aims to automate college attendance using RFID technology and image processing. It is designed to run on multiple platforms (Android, iOS, and Web) for the convenience of teaching staff, administrative staff, and students. The system utilizes RFID cards to record student presence at classroom entrances and employs image processing with an OpenCV library in C to count students, helping to prevent proxy attendance. In cases where there's a discrepancy between RFID scans and the student count, the lecturer is notified via a mobile application. The web application, built with the Drupal framework, HTML5, and JavaScript, allows students and guardians to view attendance reports. A centralized SQL Lite 3 database connects all system modules, and a Raspberry Pi is used to integrate the RFID module. The project focuses on reducing manual workload, improving attendance accuracy, and is designed with scalability for future enhancements in mobile applications and sensor integrations.
